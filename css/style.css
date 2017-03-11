@@ -1,14 +1,27 @@
 header {
-	padding: 30px 70px;
+	padding: 20px 60px;
+	color: #03AFEF;
 }
 
 header img {
 	width: 100px;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+header h3 {
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	vertical-align: top;
 }
 
 header nav {
 	float: right;
-	margin-top: 10px;
+	margin-top: -62px;
+	font-size: 25px;
 }
 
 header nav a {
@@ -19,6 +32,28 @@ header nav a {
 	text-decoration: none;
 }
 
+header nav a.linknav {
+    -webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;  
+}
+
+header nav a.linknav:hover {
+	color: #62CC40; 
+
+}
+
+
 header nav a.active {
-    color: #62CC40;   
+    color: #62CC40; 
+ 
+}
+
+
+header .logo{
+	vertical-align: top;
+}
+
+div.carousel {
+	width: 100px;
 }
