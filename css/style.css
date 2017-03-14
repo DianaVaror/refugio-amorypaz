@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 header {
 	padding: 20px 60px;
 	color: #03AFEF;
@@ -54,6 +56,10 @@ header .logo{
 	vertical-align: top;
 }
 
+.home.wrapper { 
+	background-color: whitesmoke;
+}
+
 div.carousel {
 	width: 100px;
 }
@@ -61,7 +67,7 @@ div.carousel {
 #servicios .box {
 	display: inline-block;
 	text-align: center;
-	width: 36%;
+	width: 38%;
 	padding: 39px;
 	padding-top: 0px;
 	padding-right: 0px;
