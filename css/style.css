@@ -29,8 +29,8 @@ header nav {
 header nav a {
 	color: #03AFEF;
 	font-weight: bold;
-	margin-left: 10px;
-	padding: 10px 15px;
+	margin-left: -27px;
+	padding: 9px 14px;
 	text-decoration: none;
 }
 
@@ -56,19 +56,42 @@ header .logo{
 	vertical-align: top;
 }
 
-.home.wrapper { 
-	background-color: whitesmoke;
+.home-wrapper { 
+	background-color:whitesmoke;
 }
 
-div.carousel {
-	width: 100px;
+#carousel {
+	width: 10%;
 }
 
 #servicios .box {
 	display: inline-block;
 	text-align: center;
-	width: 38%;
+	width: 33%;
 	padding: 39px;
 	padding-top: 0px;
 	padding-right: 0px;
+	vertical-align: top;
+
 }
+
+#servicios .box img{
+	max-width: 100%;
+    border-radius: 4%;
+
+} 
+
+#servicios .social a {
+	color: white;
+	display: inline-block;
+	border-radius: 14%;
+	background-color: #03afef;
+	font-size: 85px;
+	height: 100px;
+	width: 100px;
+	line-height: 104px;
+	margin-right: 11px;
+}
+
+
+
